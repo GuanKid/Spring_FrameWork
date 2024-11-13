@@ -1,0 +1,7 @@
+#logging.level.org.springframework.jdbc.core.JdbcTemplate=debug
+
+spring:
+    data:
+      mongodb:
+        database: tacocloud
+        uri: mongodb+srv://desire:04943655@cluster0.mf6mj8r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
