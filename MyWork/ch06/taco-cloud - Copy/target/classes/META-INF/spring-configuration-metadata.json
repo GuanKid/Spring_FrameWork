@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "taco.discount",
+      "type": "tacos.DiscountCodeProps",
+      "sourceType": "tacos.DiscountCodeProps"
+    },
+    {
+      "name": "taco.orders",
+      "type": "tacos.web.OrderProps",
+      "sourceType": "tacos.web.OrderProps"
+    }
+  ],
+  "properties": [
+    {
+      "name": "taco.discount.codes",
+      "type": "java.util.Map<java.lang.String,java.lang.Integer>",
+      "description": "A map of discount codes to a discount percentage.",
+      "sourceType": "tacos.DiscountCodeProps"
+    },
+    {
+      "name": "taco.orders.page-size",
+      "type": "java.lang.Integer",
+      "sourceType": "tacos.web.OrderProps"
+    },
+    {
+      "name": "taco.orders.pageSize",
+      "type": "java.lang.String",
+      "description": "Sets the maximum number of orders to display in a list."
+    }
+  ],
+  "hints": []
+}
